@@ -6,6 +6,20 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		0C6D96C424C032D7004A41F3 /* VVFrameworkTest */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0C6D96C524C032D7004A41F3 /* Build configuration list for PBXAggregateTarget "VVFrameworkTest" */;
+			buildPhases = (
+				0C6D96C824C032EC004A41F3 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = VVFrameworkTest;
+			productName = VVFrameworkTest;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		0C6D961124BF13FA004A41F3 /* VVUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C6D960F24BF13FA004A41F3 /* VVUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C6D966524BFEC9F004A41F3 /* VVUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6D966424BFEC9F004A41F3 /* VVUtils.m */; };
@@ -133,6 +147,7 @@
 			buildConfigurationList = 0C6D961424BF13FA004A41F3 /* Build configuration list for PBXNativeTarget "VVUtils" */;
 			buildPhases = (
 				4E25CC6E3B3665AB96260BB1 /* [CP] Check Pods Manifest.lock */,
+				0C6D96C324C02204004A41F3 /* ShellScript */,
 				0C6D960724BF13FA004A41F3 /* Headers */,
 				0C6D960824BF13FA004A41F3 /* Sources */,
 				0C6D960924BF13FA004A41F3 /* Frameworks */,
@@ -179,6 +194,9 @@
 					0C6D965A24BFEC72004A41F3 = {
 						CreatedOnToolsVersion = 11.4;
 					};
+					0C6D96C424C032D7004A41F3 = {
+						CreatedOnToolsVersion = 11.4;
+					};
 				};
 			};
 			buildConfigurationList = 0C6D960624BF13FA004A41F3 /* Build configuration list for PBXProject "VVUtils" */;
@@ -196,6 +214,7 @@
 			targets = (
 				0C6D960B24BF13FA004A41F3 /* VVUtils */,
 				0C6D965A24BFEC72004A41F3 /* VVUtilsLib */,
+				0C6D96C424C032D7004A41F3 /* VVFrameworkTest */,
 			);
 		};
 /* End PBXProject section */
@@ -211,6 +230,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0C6D96C324C02204004A41F3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho \"开始编译VVUtils\"\n";
+		};
+		0C6D96C824C032EC004A41F3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nsh ../script/buildframework.sh\n";
+		};
 		4E25CC6E3B3665AB96260BB1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,6 +441,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxfei.VVUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -412,6 +466,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxfei.VVUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -443,6 +498,24 @@
 			};
 			name = Release;
 		};
+		0C6D96C624C032D7004A41F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQVGB7E6CK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C6D96C724C032D7004A41F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQVGB7E6CK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -469,6 +542,15 @@
 			buildConfigurations = (
 				0C6D966124BFEC72004A41F3 /* Debug */,
 				0C6D966224BFEC72004A41F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C6D96C524C032D7004A41F3 /* Build configuration list for PBXAggregateTarget "VVFrameworkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6D96C624C032D7004A41F3 /* Debug */,
+				0C6D96C724C032D7004A41F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
