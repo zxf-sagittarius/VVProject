@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import <VVUtils/VVUtils.h>
+#import <VVHomeLib/VVHomeLib.h>
 
 @interface ViewController ()
 
@@ -16,7 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    VVUtils *utils = [[VVUtils alloc] init];
+    [utils test];
+    
+    
+    VVHomeLib *homeLib = [[VVHomeLib alloc] init];
+    [homeLib test];
 }
 
 

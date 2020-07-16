@@ -8,16 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		0C6D961124BF13FA004A41F3 /* VVUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C6D960F24BF13FA004A41F3 /* VVUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C6D966524BFEC9F004A41F3 /* VVUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6D966424BFEC9F004A41F3 /* VVUtils.m */; };
+		0C6D966624BFEC9F004A41F3 /* VVUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6D966424BFEC9F004A41F3 /* VVUtils.m */; };
+		E85B302DF29A64347062997C /* libPods-VVUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B936422722570C6A7C6EFAC /* libPods-VVUtils.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C6D965924BFEC72004A41F3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0C6D960C24BF13FA004A41F3 /* VVUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VVUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C6D960F24BF13FA004A41F3 /* VVUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVUtils.h; sourceTree = "<group>"; };
 		0C6D961024BF13FA004A41F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C6D965B24BFEC72004A41F3 /* libVVUtilsLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVVUtilsLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6D966424BFEC9F004A41F3 /* VVUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVUtils.m; sourceTree = "<group>"; };
+		0C6D96BC24BFFD15004A41F3 /* libVVUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libVVUtils.h; sourceTree = "<group>"; };
+		0C6D96BD24BFFD15004A41F3 /* libVVUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libVVUtils.m; sourceTree = "<group>"; };
+		10F0A46923199A6D53B90D84 /* Pods-VVUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVUtils.debug.xcconfig"; path = "Target Support Files/Pods-VVUtils/Pods-VVUtils.debug.xcconfig"; sourceTree = "<group>"; };
+		7B936422722570C6A7C6EFAC /* libPods-VVUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VVUtils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F1A89249C6A3D38262341B /* Pods-VVUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVUtils.release.xcconfig"; path = "Target Support Files/Pods-VVUtils/Pods-VVUtils.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0C6D960924BF13FA004A41F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85B302DF29A64347062997C /* libPods-VVUtils.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C6D965824BFEC72004A41F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				0C6D960E24BF13FA004A41F3 /* VVUtils */,
+				0C6D96BB24BFFD15004A41F3 /* libVVUtils */,
 				0C6D960D24BF13FA004A41F3 /* Products */,
+				22B36D9B48C76D6026EBDF54 /* Pods */,
+				1EDE460F599FAF6841D33B75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				0C6D960C24BF13FA004A41F3 /* VVUtils.framework */,
+				0C6D965B24BFEC72004A41F3 /* libVVUtilsLib.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,9 +81,37 @@
 			isa = PBXGroup;
 			children = (
 				0C6D960F24BF13FA004A41F3 /* VVUtils.h */,
+				0C6D966424BFEC9F004A41F3 /* VVUtils.m */,
 				0C6D961024BF13FA004A41F3 /* Info.plist */,
 			);
 			path = VVUtils;
+			sourceTree = "<group>";
+		};
+		0C6D96BB24BFFD15004A41F3 /* libVVUtils */ = {
+			isa = PBXGroup;
+			children = (
+				0C6D96BC24BFFD15004A41F3 /* libVVUtils.h */,
+				0C6D96BD24BFFD15004A41F3 /* libVVUtils.m */,
+			);
+			path = libVVUtils;
+			sourceTree = "<group>";
+		};
+		1EDE460F599FAF6841D33B75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B936422722570C6A7C6EFAC /* libPods-VVUtils.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22B36D9B48C76D6026EBDF54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10F0A46923199A6D53B90D84 /* Pods-VVUtils.debug.xcconfig */,
+				88F1A89249C6A3D38262341B /* Pods-VVUtils.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,6 +132,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C6D961424BF13FA004A41F3 /* Build configuration list for PBXNativeTarget "VVUtils" */;
 			buildPhases = (
+				4E25CC6E3B3665AB96260BB1 /* [CP] Check Pods Manifest.lock */,
 				0C6D960724BF13FA004A41F3 /* Headers */,
 				0C6D960824BF13FA004A41F3 /* Sources */,
 				0C6D960924BF13FA004A41F3 /* Frameworks */,
@@ -84,6 +147,23 @@
 			productReference = 0C6D960C24BF13FA004A41F3 /* VVUtils.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		0C6D965A24BFEC72004A41F3 /* VVUtilsLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C6D966324BFEC72004A41F3 /* Build configuration list for PBXNativeTarget "VVUtilsLib" */;
+			buildPhases = (
+				0C6D965724BFEC72004A41F3 /* Sources */,
+				0C6D965824BFEC72004A41F3 /* Frameworks */,
+				0C6D965924BFEC72004A41F3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VVUtilsLib;
+			productName = VVUtilsLib;
+			productReference = 0C6D965B24BFEC72004A41F3 /* libVVUtilsLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -94,6 +174,9 @@
 				ORGANIZATIONNAME = zxfei;
 				TargetAttributes = {
 					0C6D960B24BF13FA004A41F3 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					0C6D965A24BFEC72004A41F3 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
@@ -112,6 +195,7 @@
 			projectRoot = "";
 			targets = (
 				0C6D960B24BF13FA004A41F3 /* VVUtils */,
+				0C6D965A24BFEC72004A41F3 /* VVUtilsLib */,
 			);
 		};
 /* End PBXProject section */
@@ -126,11 +210,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E25CC6E3B3665AB96260BB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VVUtils-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0C6D960824BF13FA004A41F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C6D966524BFEC9F004A41F3 /* VVUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C6D965724BFEC72004A41F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6D966624BFEC9F004A41F3 /* VVUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +373,7 @@
 		};
 		0C6D961524BF13FA004A41F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10F0A46923199A6D53B90D84 /* Pods-VVUtils.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +397,7 @@
 		};
 		0C6D961624BF13FA004A41F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F1A89249C6A3D38262341B /* Pods-VVUtils.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -294,6 +414,30 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxfei.VVUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C6D966124BFEC72004A41F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQVGB7E6CK;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C6D966224BFEC72004A41F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQVGB7E6CK;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -316,6 +460,15 @@
 			buildConfigurations = (
 				0C6D961524BF13FA004A41F3 /* Debug */,
 				0C6D961624BF13FA004A41F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C6D966324BFEC72004A41F3 /* Build configuration list for PBXNativeTarget "VVUtilsLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6D966124BFEC72004A41F3 /* Debug */,
+				0C6D966224BFEC72004A41F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

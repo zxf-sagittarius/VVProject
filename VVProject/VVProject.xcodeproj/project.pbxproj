@@ -14,31 +14,10 @@
 		0C6D954124BF0D66004A41F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C6D954024BF0D66004A41F3 /* Assets.xcassets */; };
 		0C6D954424BF0D66004A41F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6D954224BF0D66004A41F3 /* LaunchScreen.storyboard */; };
 		0C6D954724BF0D66004A41F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6D954624BF0D66004A41F3 /* main.m */; };
+		0C6D966924BFED78004A41F3 /* VVUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6D966824BFED78004A41F3 /* VVUtils.framework */; };
+		0C6D96A824BFF1E3004A41F3 /* libVVHomeLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6D96A724BFF1E3004A41F3 /* libVVHomeLib.a */; };
+		34A5FF253B1457BB2BD122AD /* libPods-VVProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9E4533FD1312A62469A170 /* libPods-VVProject.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0C6D95E524BF135A004A41F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0C6D95E124BF135A004A41F3 /* VVHome.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0C6D95D624BF135A004A41F3;
-			remoteInfo = VVHome;
-		};
-		0C6D960024BF13CE004A41F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0C6D95FC24BF13CD004A41F3 /* VVList.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0C6D95F124BF13CD004A41F3;
-			remoteInfo = VVList;
-		};
-		0C6D963F24BF14FD004A41F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0C6D963924BF14FD004A41F3 /* VVUser.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0C6D962D24BF14FC004A41F3;
-			remoteInfo = VVUser;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0C6D953124BF0D66004A41F3 /* VVProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,9 +32,11 @@
 		0C6D954324BF0D66004A41F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C6D954524BF0D66004A41F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C6D954624BF0D66004A41F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0C6D95E124BF135A004A41F3 /* VVHome.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VVHome.xcodeproj; path = ../VVHome/VVHome.xcodeproj; sourceTree = "<group>"; };
-		0C6D95FC24BF13CD004A41F3 /* VVList.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VVList.xcodeproj; path = ../VVList/VVList.xcodeproj; sourceTree = "<group>"; };
-		0C6D963924BF14FD004A41F3 /* VVUser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VVUser.xcodeproj; path = ../VVUser/VVUser.xcodeproj; sourceTree = "<group>"; };
+		0C6D966824BFED78004A41F3 /* VVUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VVUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6D96A724BFF1E3004A41F3 /* libVVHomeLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libVVHomeLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9E4533FD1312A62469A170 /* libPods-VVProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VVProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC8A3AA6C60DFA3ACFFA663 /* Pods-VVProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVProject.release.xcconfig"; path = "Target Support Files/Pods-VVProject/Pods-VVProject.release.xcconfig"; sourceTree = "<group>"; };
+		69BE3E1F46EB8DE36BF88D94 /* Pods-VVProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVProject.debug.xcconfig"; path = "Target Support Files/Pods-VVProject/Pods-VVProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +44,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C6D96A824BFF1E3004A41F3 /* libVVHomeLib.a in Frameworks */,
+				0C6D966924BFED78004A41F3 /* VVUtils.framework in Frameworks */,
+				34A5FF253B1457BB2BD122AD /* libPods-VVProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,11 +56,10 @@
 		0C6D952824BF0D66004A41F3 = {
 			isa = PBXGroup;
 			children = (
-				0C6D95E124BF135A004A41F3 /* VVHome.xcodeproj */,
-				0C6D95FC24BF13CD004A41F3 /* VVList.xcodeproj */,
-				0C6D963924BF14FD004A41F3 /* VVUser.xcodeproj */,
 				0C6D953324BF0D66004A41F3 /* VVProject */,
 				0C6D953224BF0D66004A41F3 /* Products */,
+				0C6D966724BFED78004A41F3 /* Frameworks */,
+				FFBE43C3019FBBD1873C99FB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,28 +89,24 @@
 			path = VVProject;
 			sourceTree = "<group>";
 		};
-		0C6D95E224BF135A004A41F3 /* Products */ = {
+		0C6D966724BFED78004A41F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0C6D95E624BF135A004A41F3 /* VVHome.framework */,
+				0C6D96A724BFF1E3004A41F3 /* libVVHomeLib.a */,
+				0C6D966824BFED78004A41F3 /* VVUtils.framework */,
+				2D9E4533FD1312A62469A170 /* libPods-VVProject.a */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0C6D95FD24BF13CD004A41F3 /* Products */ = {
+		FFBE43C3019FBBD1873C99FB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0C6D960124BF13CE004A41F3 /* VVList.framework */,
+				69BE3E1F46EB8DE36BF88D94 /* Pods-VVProject.debug.xcconfig */,
+				3FC8A3AA6C60DFA3ACFFA663 /* Pods-VVProject.release.xcconfig */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0C6D963A24BF14FD004A41F3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0C6D964024BF14FD004A41F3 /* libVVUser.a */,
-			);
-			name = Products;
+			name = Pods;
+			path = ../Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C6D954A24BF0D66004A41F3 /* Build configuration list for PBXNativeTarget "VVProject" */;
 			buildPhases = (
+				9359AE516C9657C988C8633F /* [CP] Check Pods Manifest.lock */,
 				0C6D952D24BF0D66004A41F3 /* Sources */,
 				0C6D952E24BF0D66004A41F3 /* Frameworks */,
 				0C6D952F24BF0D66004A41F3 /* Resources */,
+				0C6D96A924BFF40B004A41F3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -175,50 +156,12 @@
 			mainGroup = 0C6D952824BF0D66004A41F3;
 			productRefGroup = 0C6D953224BF0D66004A41F3 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 0C6D95E224BF135A004A41F3 /* Products */;
-					ProjectRef = 0C6D95E124BF135A004A41F3 /* VVHome.xcodeproj */;
-				},
-				{
-					ProductGroup = 0C6D95FD24BF13CD004A41F3 /* Products */;
-					ProjectRef = 0C6D95FC24BF13CD004A41F3 /* VVList.xcodeproj */;
-				},
-				{
-					ProductGroup = 0C6D963A24BF14FD004A41F3 /* Products */;
-					ProjectRef = 0C6D963924BF14FD004A41F3 /* VVUser.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				0C6D953024BF0D66004A41F3 /* VVProject */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		0C6D95E624BF135A004A41F3 /* VVHome.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = VVHome.framework;
-			remoteRef = 0C6D95E524BF135A004A41F3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0C6D960124BF13CE004A41F3 /* VVList.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = VVList.framework;
-			remoteRef = 0C6D960024BF13CE004A41F3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0C6D964024BF14FD004A41F3 /* libVVUser.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libVVUser.a;
-			remoteRef = 0C6D963F24BF14FD004A41F3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0C6D952F24BF0D66004A41F3 /* Resources */ = {
@@ -232,6 +175,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C6D96A924BFF40B004A41F3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho \"开始编译VVProject\"\n";
+		};
+		9359AE516C9657C988C8633F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VVProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C6D952D24BF0D66004A41F3 /* Sources */ = {
@@ -379,6 +364,7 @@
 		};
 		0C6D954B24BF0D66004A41F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69BE3E1F46EB8DE36BF88D94 /* Pods-VVProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +382,7 @@
 		};
 		0C6D954C24BF0D66004A41F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC8A3AA6C60DFA3ACFFA663 /* Pods-VVProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -8,12 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for VVUtils.
-FOUNDATION_EXPORT double VVUtilsVersionNumber;
+@interface VVUtils : NSObject
 
-//! Project version string for VVUtils.
-FOUNDATION_EXPORT const unsigned char VVUtilsVersionString[];
+- (void)test;
 
-// In this header, you should import all the public headers of your framework using statements like #import <VVUtils/PublicHeader.h>
-
-
+@end
