@@ -14,10 +14,26 @@
 		0C6D954124BF0D66004A41F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C6D954024BF0D66004A41F3 /* Assets.xcassets */; };
 		0C6D954424BF0D66004A41F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6D954224BF0D66004A41F3 /* LaunchScreen.storyboard */; };
 		0C6D954724BF0D66004A41F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6D954624BF0D66004A41F3 /* main.m */; };
-		0C6D966924BFED78004A41F3 /* VVUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6D966824BFED78004A41F3 /* VVUtils.framework */; };
 		0C6D96A824BFF1E3004A41F3 /* libVVHomeLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6D96A724BFF1E3004A41F3 /* libVVHomeLib.a */; };
+		0C6D971A24C597E1004A41F3 /* VVUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6D970A24C58E0C004A41F3 /* VVUtils.framework */; };
+		0C6D972B24C59B49004A41F3 /* VVDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6D972924C59B31004A41F3 /* VVDynamic.framework */; };
+		0C6D972C24C59B49004A41F3 /* VVDynamic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6D972924C59B31004A41F3 /* VVDynamic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		34A5FF253B1457BB2BD122AD /* libPods-VVProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9E4533FD1312A62469A170 /* libPods-VVProject.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C6D971924C597DF004A41F3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0C6D972C24C59B49004A41F3 /* VVDynamic.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0C6D953124BF0D66004A41F3 /* VVProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,8 +48,9 @@
 		0C6D954324BF0D66004A41F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C6D954524BF0D66004A41F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C6D954624BF0D66004A41F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0C6D966824BFED78004A41F3 /* VVUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VVUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C6D96A724BFF1E3004A41F3 /* libVVHomeLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libVVHomeLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6D970A24C58E0C004A41F3 /* VVUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VVUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6D972924C59B31004A41F3 /* VVDynamic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VVDynamic.framework; sourceTree = "<group>"; };
 		2D9E4533FD1312A62469A170 /* libPods-VVProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VVProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC8A3AA6C60DFA3ACFFA663 /* Pods-VVProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVProject.release.xcconfig"; path = "Target Support Files/Pods-VVProject/Pods-VVProject.release.xcconfig"; sourceTree = "<group>"; };
 		69BE3E1F46EB8DE36BF88D94 /* Pods-VVProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVProject.debug.xcconfig"; path = "Target Support Files/Pods-VVProject/Pods-VVProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -44,8 +61,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C6D972B24C59B49004A41F3 /* VVDynamic.framework in Frameworks */,
 				0C6D96A824BFF1E3004A41F3 /* libVVHomeLib.a in Frameworks */,
-				0C6D966924BFED78004A41F3 /* VVUtils.framework in Frameworks */,
+				0C6D971A24C597E1004A41F3 /* VVUtils.framework in Frameworks */,
 				34A5FF253B1457BB2BD122AD /* libPods-VVProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,8 +110,9 @@
 		0C6D966724BFED78004A41F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0C6D972924C59B31004A41F3 /* VVDynamic.framework */,
+				0C6D970A24C58E0C004A41F3 /* VVUtils.framework */,
 				0C6D96A724BFF1E3004A41F3 /* libVVHomeLib.a */,
-				0C6D966824BFED78004A41F3 /* VVUtils.framework */,
 				2D9E4533FD1312A62469A170 /* libPods-VVProject.a */,
 			);
 			name = Frameworks;
@@ -121,6 +140,7 @@
 				0C6D952E24BF0D66004A41F3 /* Frameworks */,
 				0C6D952F24BF0D66004A41F3 /* Resources */,
 				0C6D96A924BFF40B004A41F3 /* ShellScript */,
+				0C6D971924C597DF004A41F3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,7 +212,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho \"开始编译VVProject\"\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho \"开始编译VVProject\"\n# 真机目录\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos\n# 模拟器目录\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator\n\necho \"真机: ${DEVICE_DIR}\"\necho \"模拟器: ${SIMULATOR_DIR}\"\n";
 		};
 		9359AE516C9657C988C8633F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -369,6 +389,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CQVGB7E6CK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = VVProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -387,6 +411,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CQVGB7E6CK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = VVProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

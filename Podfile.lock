@@ -1,24 +1,20 @@
 PODS:
   - SVProgressHUD (2.2.5)
-  - YYCache (1.0.4)
   - YYText (1.0.7)
 
 DEPENDENCIES:
   - SVProgressHUD
-  - YYCache
   - YYText
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - SVProgressHUD
-    - YYCache
     - YYText
 
 SPEC CHECKSUMS:
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: b4f7559146da18b47c084b51ebf3b04afab91968
+PODFILE CHECKSUM: 1f7208295b83529b9f9b8bfea8d6094b78cfe06d
 
 COCOAPODS: 1.7.5

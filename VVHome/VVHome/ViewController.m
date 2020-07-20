@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <VVUtils/VVUtils.h>
+#import <VVDynamic/VVDynamic.h>
 
 @interface ViewController ()
 
@@ -19,6 +20,10 @@
     [super viewDidLoad];
     VVUtils *utils = [[VVUtils alloc] init];
     [utils test];
+    
+    VVDynamic *dynamic = [[VVDynamic alloc] init];
+    [dynamic test];
+    
 }
 
 

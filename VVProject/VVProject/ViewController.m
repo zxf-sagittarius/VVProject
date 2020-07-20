@@ -22,9 +22,11 @@
     VVUtils *utils = [[VVUtils alloc] init];
     [utils test];
     
-    
     VVHomeLib *homeLib = [[VVHomeLib alloc] init];
     [homeLib test];
+    
+//    VVDynamic *dynamic = [[VVDynamic alloc] init];
+//    [dynamic test];
 }
 
 

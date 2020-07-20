@@ -7,15 +7,17 @@
 //
 
 #import "VVHomeLib.h"
-#import <VVUtils/VVUtils.h>
+//#import <VVUtils/VVUtils.h>
+#import <VVDynamic/VVDynamic.h>
 
 @implementation VVHomeLib
 
 - (void)test {
     NSLog(@"%s",__func__);
     
-    VVUtils *utils = [[VVUtils alloc] init];
-    [utils test];
+    VVDynamic *dy = [[VVDynamic alloc] init];
+    [dy test];
+    
 }
 
 @end

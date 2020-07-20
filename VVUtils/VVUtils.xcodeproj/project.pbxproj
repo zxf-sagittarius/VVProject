@@ -24,7 +24,6 @@
 		0C6D961124BF13FA004A41F3 /* VVUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C6D960F24BF13FA004A41F3 /* VVUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C6D966524BFEC9F004A41F3 /* VVUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6D966424BFEC9F004A41F3 /* VVUtils.m */; };
 		0C6D966624BFEC9F004A41F3 /* VVUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6D966424BFEC9F004A41F3 /* VVUtils.m */; };
-		3EFEF108C90976DDAD219FD7 /* libPods-VVUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B936422722570C6A7C6EFAC /* libPods-VVUtils.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EFEF108C90976DDAD219FD7 /* libPods-VVUtils.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

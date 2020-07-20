@@ -17,7 +17,7 @@ end
 
 target 'VVUtils' do
 	project 'VVUtils/VVUtils.xcodeproj'
-	pod 'YYCache'
+	# pod 'YYCache'
 end
 
 target 'VVProject' do
