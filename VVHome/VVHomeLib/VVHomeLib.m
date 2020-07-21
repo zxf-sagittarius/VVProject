@@ -8,15 +8,19 @@
 
 #import "VVHomeLib.h"
 //#import <VVUtils/VVUtils.h>
-#import <VVDynamic/VVDynamic.h>
+//#import <VVDynamic/VVDynamic.h>
+#import <VVStaticFramework/VVStatic.h>
 
 @implementation VVHomeLib
 
 - (void)test {
     NSLog(@"%s",__func__);
     
-    VVDynamic *dy = [[VVDynamic alloc] init];
-    [dy test];
+//    VVDynamic *dy = [[VVDynamic alloc] init];
+//    [dy test];
+    
+    VVStatic *s = [[VVStatic alloc] init];
+    [s test];
     
 }
 

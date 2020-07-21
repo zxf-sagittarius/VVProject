@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 #import <VVUtils/VVUtils.h>
-#import <VVDynamic/VVDynamic.h>
+//#import <VVDynamic/VVDynamic.h>
+#import <SVProgressHUD.h>
+
 
 @interface ViewController ()
 
@@ -21,8 +23,11 @@
     VVUtils *utils = [[VVUtils alloc] init];
     [utils test];
     
-    VVDynamic *dynamic = [[VVDynamic alloc] init];
-    [dynamic test];
+//    VVDynamic *dynamic = [[VVDynamic alloc] init];
+//    [dynamic test];
+    NSString *name = [[[NSBundle mainBundle] pathForResource:@"VVStaticFramework" ofType:@"bundle"] stringByAppendingString:@"/zxfei.jpeg"];
+    UIImage *image = [UIImage imageNamed:name];
+    NSLog(@"_______%@",image);
     
 }
 

@@ -4,33 +4,73 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/VVDynamic.h</key>
+		<key>Headers/VVUtils.h</key>
 		<data>
-		QmV2040xJv8UJbKPs1jTTdK8sYo=
+		HMsZfwcpeiBY0ZV8kmU4rH4BtNA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mZ/KppDKWG/4buXfJqwanyJi7Lo=
+		wPDY0D3f0n1IqhftFDCFxX8dv10=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		UDgKW3me8qdQVL4muY9m/5R3XU8=
+		SUHAYpZ9lJ9jIHACEq6OJxFwumI=
+		</data>
+		<key>VVStaticFramework.bundle/Root.plist</key>
+		<data>
+		jOhqEUF1/xyY+fuswiWT+ELC3dI=
+		</data>
+		<key>VVStaticFramework.bundle/en.lproj/Root.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t4KY9Gh4uIiOv7VnHtRrKEuPRY8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>VVStaticFramework.bundle/zxfei.jpeg</key>
+		<data>
+		HW8caAVFAnbKFWwzeYnz2czVhqg=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/VVDynamic.h</key>
+		<key>Headers/VVUtils.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ObsidFOG7DUbLdghxMrGGkOnh9Ax6KY2Pgid/YQwh64=
+			v9yvzCRrwimyP5EELkha9FFctOug892nOa43Rm7oJ+M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AY+eINFmJTL+WxaTN+Yx40IRACnph06EtBqTFRZDozk=
+			R/EVwwWSrAUoGA3VCwFWqFSnPHHbkwg3zFFsiRGT6xA=
+			</data>
+		</dict>
+		<key>VVStaticFramework.bundle/Root.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			m26DmegPkB5jwUJkVEtLlObYALX8He100Ny0+NNJg/g=
+			</data>
+		</dict>
+		<key>VVStaticFramework.bundle/en.lproj/Root.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xUzNd7J7w99oAnMIWGe1dAGArHMuEXwQqxSziDU5vLk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>VVStaticFramework.bundle/zxfei.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5MfPSOv4rBcuLahOPFCyK7qtymnIa5tqciCuxiv0XqE=
 			</data>
 		</dict>
 	</dict>

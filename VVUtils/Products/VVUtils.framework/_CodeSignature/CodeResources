@@ -4,6 +4,75 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/VVDynamic.framework/Assets.car</key>
+		<data>
+		AS+dqqRZuxiMAwIb2Y6IP++5VVk=
+		</data>
+		<key>Frameworks/VVDynamic.framework/Info.plist</key>
+		<data>
+		mZ/KppDKWG/4buXfJqwanyJi7Lo=
+		</data>
+		<key>Frameworks/VVDynamic.framework/VVDynamic</key>
+		<data>
+		WeTNSTVusClcVYN3m9NCRkiIMLw=
+		</data>
+		<key>Frameworks/VVDynamic.framework/_CodeSignature/CodeResources</key>
+		<data>
+		irt0KLdYF6pg1t1B01h3mw2f5aM=
+		</data>
+		<key>Frameworks/VVDynamic.framework/images.bundle/Root.plist</key>
+		<data>
+		jOhqEUF1/xyY+fuswiWT+ELC3dI=
+		</data>
+		<key>Frameworks/VVDynamic.framework/images.bundle/app.png</key>
+		<data>
+		OFUsTPLh+vjyqnKc4Ovi/zeV+LA=
+		</data>
+		<key>Frameworks/VVDynamic.framework/images.bundle/en.lproj/Root.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t4KY9Gh4uIiOv7VnHtRrKEuPRY8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/VVDynamic.framework/zxfei.jpeg</key>
+		<data>
+		HW8caAVFAnbKFWwzeYnz2czVhqg=
+		</data>
+		<key>Frameworks/VVStaticFramework.framework/Info.plist</key>
+		<data>
+		rtVUS5+OIL3uloaPnmecChBCmAs=
+		</data>
+		<key>Frameworks/VVStaticFramework.framework/VVStaticFramework</key>
+		<data>
+		c5YUCoCMmj9WD36MEsS5qRz1Zy8=
+		</data>
+		<key>Frameworks/VVStaticFramework.framework/_CodeSignature/CodeDirectory</key>
+		<data>
+		2lIoLlGfy1k6T6x7x11phqWn6O4=
+		</data>
+		<key>Frameworks/VVStaticFramework.framework/_CodeSignature/CodeRequirements</key>
+		<data>
+		+Xek4k3WLocS+KCPCAHmw1MNvok=
+		</data>
+		<key>Frameworks/VVStaticFramework.framework/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		sADyXnexmOTM5BUFKGL40wBGWJ4=
+		</data>
+		<key>Frameworks/VVStaticFramework.framework/_CodeSignature/CodeResources</key>
+		<data>
+		eQoRWwEW52APNLg2UmufVu/K7Lc=
+		</data>
+		<key>Frameworks/VVStaticFramework.framework/_CodeSignature/CodeSignature</key>
+		<data>
+		uTRszZ1oTi6eb+HPdCCc0Qmi0+E=
+		</data>
+		<key>Frameworks/VVStaticFramework.framework/zxfei.jpeg</key>
+		<data>
+		HW8caAVFAnbKFWwzeYnz2czVhqg=
+		</data>
 		<key>Headers/VVUtils.h</key>
 		<data>
 		HMsZfwcpeiBY0ZV8kmU4rH4BtNA=
@@ -16,9 +85,140 @@
 		<data>
 		SUHAYpZ9lJ9jIHACEq6OJxFwumI=
 		</data>
+		<key>VVStaticFramework.bundle/Root.plist</key>
+		<data>
+		jOhqEUF1/xyY+fuswiWT+ELC3dI=
+		</data>
+		<key>VVStaticFramework.bundle/en.lproj/Root.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t4KY9Gh4uIiOv7VnHtRrKEuPRY8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>VVStaticFramework.bundle/zxfei.jpeg</key>
+		<data>
+		HW8caAVFAnbKFWwzeYnz2czVhqg=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/VVDynamic.framework/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MLbQCK56t+kFJGV95he5wB4c2kkB2bPALZm8jUIP61Y=
+			</data>
+		</dict>
+		<key>Frameworks/VVDynamic.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KIi+L5q910n4VQWaAMAfb0/55Pi9+TdtEDGaFbMjZqw=
+			</data>
+		</dict>
+		<key>Frameworks/VVDynamic.framework/VVDynamic</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4Q0/4E220tr9YSnnnVq63dNF24G1jJMa17Im/pIYsVc=
+			</data>
+		</dict>
+		<key>Frameworks/VVDynamic.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XU9A/Swme1Puj/3X8Lr2Jo6KJcLLSt1D2b26lCs5+q8=
+			</data>
+		</dict>
+		<key>Frameworks/VVDynamic.framework/images.bundle/Root.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			m26DmegPkB5jwUJkVEtLlObYALX8He100Ny0+NNJg/g=
+			</data>
+		</dict>
+		<key>Frameworks/VVDynamic.framework/images.bundle/app.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ff2kV7lvC6psBStb7IqrIguBzF6G0hTLB39Izr2y12E=
+			</data>
+		</dict>
+		<key>Frameworks/VVDynamic.framework/images.bundle/en.lproj/Root.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xUzNd7J7w99oAnMIWGe1dAGArHMuEXwQqxSziDU5vLk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/VVDynamic.framework/zxfei.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5MfPSOv4rBcuLahOPFCyK7qtymnIa5tqciCuxiv0XqE=
+			</data>
+		</dict>
+		<key>Frameworks/VVStaticFramework.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Xw9f+lSe1x3eqy0x/eE/xXjwNjwVMYDa/bdpmv2kF0A=
+			</data>
+		</dict>
+		<key>Frameworks/VVStaticFramework.framework/VVStaticFramework</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dXbN0g78gBSTtPI5SC54x3gAPQmbFm0Pwo443ev8pN0=
+			</data>
+		</dict>
+		<key>Frameworks/VVStaticFramework.framework/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eSu8lJGttK5Zl+ZHwAenYxM8cXwPInfVhhG30vUJW4Q=
+			</data>
+		</dict>
+		<key>Frameworks/VVStaticFramework.framework/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZRrdCgGLTUXBQoIi4CDCbYzTbEvVaf+8n1CWCvPReNE=
+			</data>
+		</dict>
+		<key>Frameworks/VVStaticFramework.framework/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Wj0GcsXQ02mYMy1DkhbgzgkQmn5jR0WTzCXN5wLIY+4=
+			</data>
+		</dict>
+		<key>Frameworks/VVStaticFramework.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vBK124lsmYZlusAYEQZN9fzHEJG0O/zrSNt9lLYzqgY=
+			</data>
+		</dict>
+		<key>Frameworks/VVStaticFramework.framework/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i2qCMhXe2C7c+GgP60555G2k5Rlye4Vx2DjKlNQGMiY=
+			</data>
+		</dict>
+		<key>Frameworks/VVStaticFramework.framework/zxfei.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5MfPSOv4rBcuLahOPFCyK7qtymnIa5tqciCuxiv0XqE=
+			</data>
+		</dict>
 		<key>Headers/VVUtils.h</key>
 		<dict>
 			<key>hash2</key>
@@ -31,6 +231,29 @@
 			<key>hash2</key>
 			<data>
 			R/EVwwWSrAUoGA3VCwFWqFSnPHHbkwg3zFFsiRGT6xA=
+			</data>
+		</dict>
+		<key>VVStaticFramework.bundle/Root.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			m26DmegPkB5jwUJkVEtLlObYALX8He100Ny0+NNJg/g=
+			</data>
+		</dict>
+		<key>VVStaticFramework.bundle/en.lproj/Root.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xUzNd7J7w99oAnMIWGe1dAGArHMuEXwQqxSziDU5vLk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>VVStaticFramework.bundle/zxfei.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5MfPSOv4rBcuLahOPFCyK7qtymnIa5tqciCuxiv0XqE=
 			</data>
 		</dict>
 	</dict>

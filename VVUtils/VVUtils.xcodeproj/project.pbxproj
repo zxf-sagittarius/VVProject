@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -24,6 +24,13 @@
 		0C6D961124BF13FA004A41F3 /* VVUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C6D960F24BF13FA004A41F3 /* VVUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C6D966524BFEC9F004A41F3 /* VVUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6D966424BFEC9F004A41F3 /* VVUtils.m */; };
 		0C6D966624BFEC9F004A41F3 /* VVUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6D966424BFEC9F004A41F3 /* VVUtils.m */; };
+		0C6D97CA24C6D191004A41F3 /* VVStaticFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6D97C724C6D191004A41F3 /* VVStaticFramework.framework */; };
+		0C6D97CB24C6D191004A41F3 /* VVStaticFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C6D97C824C6D191004A41F3 /* VVStaticFramework.bundle */; };
+		0C6D97D224C6D5B1004A41F3 /* VVDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6D97D024C6D5B1004A41F3 /* VVDynamic.framework */; platformFilter = ios; };
+		0C6D97D524C6D725004A41F3 /* VVStaticFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6D97C724C6D191004A41F3 /* VVStaticFramework.framework */; };
+		0C6D97D624C6D725004A41F3 /* VVStaticFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6D97C724C6D191004A41F3 /* VVStaticFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C6D97D724C6D916004A41F3 /* VVDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6D97D024C6D5B1004A41F3 /* VVDynamic.framework */; platformFilter = ios; };
+		0C6D97D824C6D916004A41F3 /* VVDynamic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6D97D024C6D5B1004A41F3 /* VVDynamic.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +43,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C6D979424C693D2004A41F3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0C6D97D824C6D916004A41F3 /* VVDynamic.framework in Embed Frameworks */,
+				0C6D97D624C6D725004A41F3 /* VVStaticFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +65,9 @@
 		0C6D966424BFEC9F004A41F3 /* VVUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVUtils.m; sourceTree = "<group>"; };
 		0C6D96BC24BFFD15004A41F3 /* libVVUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libVVUtils.h; sourceTree = "<group>"; };
 		0C6D96BD24BFFD15004A41F3 /* libVVUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libVVUtils.m; sourceTree = "<group>"; };
+		0C6D97C724C6D191004A41F3 /* VVStaticFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VVStaticFramework.framework; sourceTree = "<group>"; };
+		0C6D97C824C6D191004A41F3 /* VVStaticFramework.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VVStaticFramework.bundle; sourceTree = "<group>"; };
+		0C6D97D024C6D5B1004A41F3 /* VVDynamic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VVDynamic.framework; sourceTree = "<group>"; };
 		10F0A46923199A6D53B90D84 /* Pods-VVUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVUtils.debug.xcconfig"; path = "Target Support Files/Pods-VVUtils/Pods-VVUtils.debug.xcconfig"; sourceTree = "<group>"; };
 		7B936422722570C6A7C6EFAC /* libPods-VVUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VVUtils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F1A89249C6A3D38262341B /* Pods-VVUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVUtils.release.xcconfig"; path = "Target Support Files/Pods-VVUtils/Pods-VVUtils.release.xcconfig"; sourceTree = "<group>"; };
@@ -56,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C6D97D724C6D916004A41F3 /* VVDynamic.framework in Frameworks */,
+				0C6D97D524C6D725004A41F3 /* VVStaticFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C6D97D224C6D5B1004A41F3 /* VVDynamic.framework in Frameworks */,
+				0C6D97CA24C6D191004A41F3 /* VVStaticFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +137,9 @@
 		1EDE460F599FAF6841D33B75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0C6D97D024C6D5B1004A41F3 /* VVDynamic.framework */,
+				0C6D97C824C6D191004A41F3 /* VVStaticFramework.bundle */,
+				0C6D97C724C6D191004A41F3 /* VVStaticFramework.framework */,
 				7B936422722570C6A7C6EFAC /* libPods-VVUtils.a */,
 			);
 			name = Frameworks;
@@ -150,6 +179,7 @@
 				0C6D960824BF13FA004A41F3 /* Sources */,
 				0C6D960924BF13FA004A41F3 /* Frameworks */,
 				0C6D960A24BF13FA004A41F3 /* Resources */,
+				0C6D979424C693D2004A41F3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -222,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C6D97CB24C6D191004A41F3 /* VVStaticFramework.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,12 +463,20 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = VVUtils/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxfei.VVUtils;
@@ -457,12 +496,20 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = VVUtils/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxfei.VVUtils;
@@ -477,6 +524,14 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CQVGB7E6CK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -489,6 +544,14 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CQVGB7E6CK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

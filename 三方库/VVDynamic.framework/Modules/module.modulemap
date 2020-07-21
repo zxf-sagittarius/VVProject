@@ -1,0 +1,6 @@
+framework module VVDynamic {
+  umbrella header "VVDynamic.h"
+
+  export *
+  module * { export * }
+}

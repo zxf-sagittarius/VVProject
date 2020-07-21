@@ -8,10 +8,15 @@
 
 #import "VVUtils.h"
 
+#import <VVStaticFramework/VVStatic.h>
+
+
 @implementation VVUtils
 
 - (void)test {
     NSLog(@"打印%s",__func__);
+    VVStatic *st = [[VVStatic alloc] init];
+    [st test];
 }
 
 @end

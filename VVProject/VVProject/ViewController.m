@@ -8,7 +8,10 @@
 
 #import "ViewController.h"
 #import <VVUtils/VVUtils.h>
+
+#import <VVStaticFramework/VVStatic.h>
 #import <VVHomeLib/VVHomeLib.h>
+
 
 @interface ViewController ()
 
@@ -27,6 +30,9 @@
     
 //    VVDynamic *dynamic = [[VVDynamic alloc] init];
 //    [dynamic test];
+    
+    VVStatic *st = [[VVStatic alloc] init];
+    [st test];
 }
 
 
